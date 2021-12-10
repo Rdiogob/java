@@ -1,0 +1,94 @@
+1-FAÇA UM PROGRAMA QUE RECEBE TRES INTEIROS E DIGA QUAL DELES E O MAIOR?
+
+package primeirojava;
+import java.util.Scanner;
+public class exerci {
+
+	public static void main(String[] args) {
+		Scanner = entrada new Scanner(System.in);
+		System.out.println("digite o valor do primeiro numero");
+		a=Entrada=next();
+		System.out.println("digite o  valor do segundo numero");
+		b= Entrada=next();
+		System.out.println("digite o valor do terceiro numero");
+		c=Entrada =next();
+		if( a>=b && a<b) {
+		numero1 = a
+	    numero2 = b
+	    numero3 = c
+		}
+		else {
+		numero1 = a
+	    numero2 = b
+	    numero3 = c
+	    
+		}
+		
+			if (numero1<numero2) {
+				(numero2<numero3)
+			}
+		
+      system.out.println("digite o maior numero entre os 3 digitados é:+ maior");
+      System.out.println("digite o nemor numero entre os 3 é: -menor");
+	}
+
+}
+}
+--------------------//----------------------------------//---------------------------------------------//------------------------------------------------------------------------------------------------
+2-faça umprogrma que entre com tres numeros e coloque em ordem crescente?
+
+package EXCERCIOS :
+java.scanner.util;
+public class ATIVIDADES {
+
+	public static void main(String[] args) {
+		Scanner=teclado new=Scanner(System.in)
+		long a, b , c;
+		System.out.println("digite o primeiro numero");
+		a=teclado.nextlong();
+		System.out.println("digite o segundo o numero");
+		b=teclado.nextlong();
+		System.out.println("digite o terceironumero");
+		c=teclado.nexlong();
+		else( (a<B) && (a<c) && (b<C){
+			System.out.println("digite os numero em ordem crescente" + a+B+C);
+		}
+		if ((a<B)&&(a<C)(B<C>))
+			System.out.println("digite os numero em ordem crescente" + a+B+C);
+		}
+			if((a<B) && (a<c) && (b<c));
+			System.out.println("digite os numero em ordem crescente "  a+b+C)
+  
+		
+	}
+
+---------------------//------------------------------//-------------------------//-----------------------------//----------------------------------------------------------------------------------------
+3-FACA UM PROGRMA QUE RECEBAR A IDADE DE UMA PESSOA E MOSTRE A SAIDA  EM QUAL CATEGORIA ELE SE ENCONTRA?
+package jdk17;
+Scanner.util.java;
+public class jvajdk17 {
+
+	public static void main(String[] args) {
+		scanner=ler  new =scanner(system.in);
+		System.out.println("digite o primeiro numero de 10 ate 14");
+		n1=ler.next.double();
+		System.out.println("digite o segundo o numero ");
+		n2= ler.next.double();
+		System.out.println("digite o terceiro numero");
+		n3=ler.next.double()
+				
+				if(10>=14) {
+					System.out.println("se resultado é menor que  14: infantil");
+					
+				}
+		
+				else if(15>=17) {
+					System.out.println("se o reseultado é menor que 17: juvenil");
+					
+				}
+		if(18>=21) {
+			System.out.println("se o resultado e menor que 21");
+			
+			
+		
+--------------------------------------------------//----------------------------//--------------------///------------------------------------------//----------------------------------------------------		
