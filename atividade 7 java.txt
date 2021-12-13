@@ -1,0 +1,168 @@
+EXERCICIOS
+1-Faça um programa que crie um vetor por leitura com 5 valores de pontuação de uma
+atividade e o escreva em seguida. Encontre após a maior pontuação e a apresente?
+
+package execicios;
+
+import java.util.Scanner;
+
+public class exercicios {
+
+	private static double nexdouble(){
+
+	public static void main(String[] args) {
+		Scanner leia  = new Scanner(System.in);
+		double []lponto = new double [5];  double maior  = 0.0;
+		for(int i = 0; i <lponto.length; i++) {
+			System.out.println("insira a pontuação da atividade " + (i+1) +":");
+			lponto[1]= nexdouble();
+		}
+		int i;
+		if(lponto[i] >maior){
+			maior = lponto[i];
+
+	}
+		{
+			
+		
+    System.out.println("\n" + "A maior pontuação dentre as atividade é:"+maior + "!" + "\n");
+    		leia.close();
+		
+}
+
+}
+
+-------------------------------------------//-----------------//---------------------------//------------------------/-------------//----------------------//-----------------//----------------
+
+2-Um dado é lançado 10 vezes e o valor correspondente é anotado. Faça um programa
+que gere um vetor com os lançamentos, escreva esse vetor. A seguir determine e
+imprima a média aritmética dos lançamentos, contabilize e apresente também
+quantas foram as ocorrências da maior pontuação?
+
+
+
+package GENERATION.BR;
+
+import java.util.Scanner;
+
+public class JDK {
+
+	public static void main(String[] args) {
+		Scanner leia = new Scanner(System.in);
+		int[] resultado = new int [10];
+		double maior =0.0, soma =0.0, cont=0.0, media =0.0;
+		System.out.println("=====");
+		System.out.println("laçamento");
+		System.out.println("=======");
+		for(int ld = 0; ld < 10; ld ++ ) {
+			System.out.println("digite o (ld+1) + o resultado do lançamento dos dados:");
+			resultado[ld] = leia.nextInt();
+			soma=(soma+resultado[ld]);
+		}
+		int ld = 0;
+		if(maior<resultado[ld]) {
+			maior=resultado[ld];
+		}
+      if(resultado[ld]==media) {
+    	  cont++;
+      }
+      media=soma/10;
+      System.out.println("o maior  numero laçando é:" + maior);
+      System.out.println("o numero de acima apareceu" + cont + "vezes");
+      System.out.println("a media  dos resultados dos laçamentos é:" + media);
+      leia.close();
+	}
+--------------------------------------\\--------------\-------------------\\---------------------------------------\\\----------------------------------------\\-----------------\-------------------\\-
+3-
+
+
+
+
+
+
+package java;
+
+import java.util.Scanner;
+
+public class exercicios2 {
+
+	public static void main(String[] args) {
+		Scanner leia = new Scanner(System.in);
+		int [][]  new = [4][6];  int [][]  num1 [4][6];
+		int [][]  new = [4][6];  int [][]  num2 [4][6];
+		
+		for(int i= 0 ; i < 4; i++) {
+			for( c=0; c < 4; c++) {
+				System.out.println("digite o valor de n1:");
+					num1[1][c] = leia.nextInt();
+					
+					System.out.println("digite o valor de n2;");
+					num2[1][c]leia.nextInt();
+					
+					num1[1][c] = num1[1][c] = num1[1][c];
+					num1[1][c] = num1[1][c] = num1[1][c];
+							
+			}
+			sytem.out.pritln("\n");
+		}
+		System.out.println("a soma da matriz m1:");
+		for(int i = 0; i <4; i++ );
+		for(c=0; c<6; c++);
+		System.out.println("m[1][c]" + "|");
+		System.out.println("\n");
+	}
+	System.out.println("a soma da matriz m2 é: ");
+	for(int i = 0; i <4; i++ );
+	for(c=0; c=4; c++){
+		System.out.println(m2[4][c] + "|" maior);
+		
+	}
+	system.out.println("\n");
+	
+	
+}
+leia.close();
+
+---------------------------------------------------\-\--\-\-\-\---------------------------------\\\-----------------------------------------------------\\\------------------------------------------------------------\\--------
+4-Crie um programa que receba valores do usuário para preencher uma matriz 3X3, e
+em seguida, exiba a soma dos valores dela e a soma dos valores da primeira
+diagonal, ou seja, diagonal principal?
+
+
+package jk;
+
+import java.util.Scanner;
+
+public class jk {
+
+	public static void main(String[] args) {
+     Scanner leia = new Scanner(System.in);
+     double [][] matriz= new double [3][3];
+     double soma =0; new double diagonal = 0;
+     
+     for(int 1 = 0; 1 < 3; i++) {
+     for(c = 0; c < 4; c++);
+     System.out.println("digite o valor para preechimento da matriz é:");
+     matriz=[1][c]= leia.nextDouble();
+     soma=+matriz[1][c];
+     
+	}
+
+}
+
+for(int i=0; i <3; i++);
+for(c=0; c<3; c++);
+daigonal+=matriz[1][1];
+
+Sytem.out.println("\n");
+system.out.println(" a soma das matrizes e :");
+system.out.printlm("\n" + soma da diagonal principal é : + diagonal);
+system.out.println("\n");
+leia.close();
+}
+}
+
+	
+	
+		
+    		
